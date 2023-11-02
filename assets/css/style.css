@@ -1,0 +1,113 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  -webkit-text-size-adjust: none;
+}
+
+.custom-btn1 {
+  background-color: #0e6cff;
+  border: 1px solid lightblue;
+  border-radius: 10px;
+  padding-inline: 20px;
+  padding-block: 10px;
+}
+
+.custom-btn2 {
+  background-color: #ff8700;
+  border: 1px solid lightblue;
+  border-radius: 10px;
+  padding-inline: 20px;
+  padding-block: 10px;
+}
+
+.custom-btn3 {
+  background-color: #4caf50;
+  border: 1px solid lightblue;
+  border-radius: 10px;
+  padding-inline: 20px;
+  padding-block: 10px;
+}
+
+.padding-inline-sm {
+  padding-inline: 1px;
+}
+
+.padding-inline-normal {
+  padding-inline: 5px;
+}
+
+.padding-inline-md {
+  padding-inline: 10px;
+}
+
+.padding-inline-lg {
+  padding-inline: 20px;
+}
+
+.padding-inline-xl {
+  padding-inline: 30px;
+}
+
+.padding-inline-xxl {
+  padding-inline: 50px;
+}
+
+.padding-block-sm {
+  padding-block: 1px;
+}
+
+.padding-block-normal {
+  padding-block: 5px;
+}
+
+.padding-block-md {
+  padding-block: 10px;
+}
+
+.padding-block-lg {
+  padding-block: 20px;
+}
+
+.padding-block-xl {
+  padding-block: 30px;
+}
+
+.padding-block-xxl {
+  padding-block: 50px;
+}
+
+header nav img {
+  width: 500px;
+}
+header nav ul {
+  display: inline-block;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,15 @@
+$color-btn: (
+    btn1: #0e6cff,
+    btn2: #ff8700,
+    btn3: #4caf50
+);
+
+@each $key, $value in $color-btn {
+    .custom-#{$key} {
+        background-color: $value;
+        border: 1px solid lightblue;
+        border-radius: 10px;
+        padding-inline: 20px;
+        padding-block: 10px;
+    }
+}

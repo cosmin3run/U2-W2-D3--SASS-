@@ -1,0 +1,19 @@
+$sizes: (
+    sm: 1px,
+    normal: 5px,
+    md: 10px,
+    lg: 20px,
+    xl: 30px,
+    xxl: 50px
+);
+
+@each $key, $value in $sizes {
+    .padding-inline-#{$key} {
+        padding-inline: $value;
+    }
+}
+@each $key, $value in $sizes {
+    .padding-block-#{$key} {
+        padding-block: $value;
+    }
+}

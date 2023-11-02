@@ -1,0 +1,20 @@
+@import "./paritials/reset";
+@import "./paritials/animazioni";
+@import "./paritials/button";
+@import "./paritials/color";
+@import "./paritials/font";
+@import "./paritials/mixins";
+@import "./paritials/spacings";
+
+
+header {
+    nav{
+    img {
+        width: 500px;
+    }
+    ul {
+        display: inline-block;
+        
+    }
+}
+}
